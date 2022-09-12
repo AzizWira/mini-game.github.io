@@ -1,0 +1,64 @@
+:root {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  * {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+  }
+  
+  #app {
+    height: 100vh;
+  }
+  
+  .header{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2.5rem 0;
+  }
+
+  .summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem auto;
+    border: 3px solid #ed971e;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+  }
+  
+  .games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .option {
+    width: 30%;
+    margin: 10px 15px;
+    padding: 25px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #ed971e
+  }
+  
+  .option:hover {
+    cursor: pointer;
+    background-color: #eda745;
+    transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+    transform: scale(102%);
+    -webkit-transform: scale(102%);
+    -moz-transform: scale(102%);
+    -ms-transform: scale(102%);
+    -o-transform: scale(102%);
+    -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+    -moz-transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+    -ms-transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+    -o-transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+  }
